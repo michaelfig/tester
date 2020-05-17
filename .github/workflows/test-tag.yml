@@ -1,7 +1,7 @@
 on:
   push:
     tags:
-      - "@agoric/sdk@*"
+      - "**@agoric/sdk@**"
 
 jobs:
   test:
